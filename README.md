@@ -10,8 +10,9 @@ Installs: Ubantu, Numpy, Scipy, Cython, IPython Notebook, etc. See bootstrap.sh 
 
 1. clone repository
 2. Update Vagrant File: 
-    a. change shared folder
-    b. change ports if needed
+  * change shared folder
+  * change ports if needed
+  * change bootstrap.sh to add/remove packages
 3. cd into repository folder
 4. $vagrant up
 
