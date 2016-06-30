@@ -7,4 +7,4 @@ with open("/vagrant/exec_lines.txt", "r") as f:
         if clean_line != '' and clean_line[0] != '#':
             line_exec.append(clean_line)
 
-c.InteractiveShellApp.exec_lines = exec_lines
+c.InteractiveShellApp.exec_lines = line_exec
