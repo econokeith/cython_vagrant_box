@@ -11,6 +11,7 @@ Vagrant.configure("2") do |config|
     v.memory = 4096
     v.cpus = 3
 
+  #change this to location of shared folder
   config.vm.synced_folder "/users/keithblackwell1/dropbox/k_fin/", "/home/vagrant/k_fin"
   end
 end

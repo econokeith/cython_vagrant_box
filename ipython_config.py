@@ -1,3 +1,4 @@
+#loads exec_lines.txt to run when opening a notebook
 c = get_config()
 
 with open("/vagrant/exec_lines.txt", "r") as f:
