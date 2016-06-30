@@ -8,11 +8,11 @@ Installs: Ubantu, Numpy, Scipy, Cython, IPython Notebook, etc. See bootstrap.sh 
 
 #To build this box: 
 
-1. clone repository
+1. Clone repository
 2. Update Vagrant File: 
-  * change shared folder
-  * change ports if needed
-3. change bootstrap.sh to add/remove packages
+  * Change shared folder
+  * Change ports if needed
+3. Change bootstrap.sh to add/remove packages
 4. cd into repository folder
 5. $vagrant up
 
@@ -24,5 +24,9 @@ It will takes a while especially building Scipy since the apt-get version is old
 2. $cd "name of shared folder"
 3. $ipython notebook
 
-$vagrant provision will rerun the bootstrap.sh file which will check for updates on all files. 
+access ipython notebook on your browswer at 0.0.0.0:7777
+
+$vagrant provision will rerun the bootstrap.sh file which will check for updates on all files.
+
+ 
 
