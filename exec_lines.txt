@@ -1,0 +1,26 @@
+import datetime
+import os
+import copy
+import csv
+import numpy as np
+import pandas as pd
+import scipy as sp
+import numpy.random as npr
+import scipy.stats as sps
+import numpy.linalg as la
+from numpy import array
+from pandas import Series, DataFrame
+import matplotlib.pyplot as plt
+import seaborn as sns; sns.set()
+
+%matplotlib inline
+
+import line_profiler
+import IPython
+
+ip = IPython.get_ipython()
+ip.define_magic('lprun', line_profiler.magic_lprun)
+
+
+
+

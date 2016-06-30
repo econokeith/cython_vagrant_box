@@ -1,0 +1,2 @@
+#sudo chown $USER -R ~/.local/share
+#sudo chown $USER -R ~/.ipython
