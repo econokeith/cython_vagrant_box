@@ -12,9 +12,9 @@ Installs: Ubantu, Numpy, Scipy, Cython, IPython Notebook, etc. See bootstrap.sh 
 2. Update Vagrant File: 
   * change shared folder
   * change ports if needed
-  * change bootstrap.sh to add/remove packages
-3. cd into repository folder
-4. $vagrant up
+3. change bootstrap.sh to add/remove packages
+4. cd into repository folder
+5. $vagrant up
 
 It will takes a while especially building Scipy since the apt-get version is old and doesn't have an Inverse Wishart Distribution in it
 
