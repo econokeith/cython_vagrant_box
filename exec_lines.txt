@@ -1,3 +1,5 @@
+## this autoloads everytime you load a new notebook
+
 import datetime
 import os
 import copy
