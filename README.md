@@ -4,7 +4,7 @@ Linux/Cython/Numpy Box on Vagrant
  
 I got tired of dealing with osx/gcc problems and made this box. Still testing it, but it downloads the main packages I use and automatically loads them into ipython notebook whenever I open a new notebook. IPython config files are in the /vagrant/ shared folder and symlinked to the ones on the box. So, you can edit there. 
 
-Installs: Ubantu, Numpy, Scipy, Cython, IPython Notebook, etc. See bootstrap.sh for complete list
+Installs: Ubuntu, Numpy, Scipy, Cython, IPython Notebook, etc. See bootstrap.sh for complete list
 
 ##To build this box 
 ###(assuming vagrant is already installed): 
