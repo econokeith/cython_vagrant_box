@@ -6,8 +6,8 @@ I got tired of dealing with osx/gcc problems and made this box. Still testing it
 
 Installs: Ubuntu, Numpy, Scipy, Cython, IPython Notebook, etc. See bootstrap.sh for complete list
 
-##To build this box 
-###(assuming vagrant is already installed): 
+## To build this box 
+### (assuming vagrant is already installed): 
 
 1. Clone repository
 2. Update Vagrant File: 
@@ -19,7 +19,7 @@ Installs: Ubuntu, Numpy, Scipy, Cython, IPython Notebook, etc. See bootstrap.sh 
 
 It will take a few mintes. Building Scipy with pip is pretty slow, but apt-get gets an older version that doesn't have the Inverse Wishart Distribution. 
 
-##To use this box: 
+## To use this box: 
 
 1. $vagrant ssh
 2. $cd "name of shared folder"
